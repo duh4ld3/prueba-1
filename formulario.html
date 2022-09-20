@@ -24,19 +24,31 @@
         <main>
             <h4>Aquí encontrará un formulario para contactarse con nuestra comunidad</h4>
 
-            <form action="">
-
-                <label >Nombre: </label>
-                <input type="text">
+           
                 
-                <label >Apellido: </label>
-                <input type="text">
-                <label > correo: </label>
-                <input type="text">
+               
+          <div>
+            <form action="/action_page.php">
+                <label for="fname">Nombre: </label>
+                <input type="text" id="fname" name="firstname" placeholder="Escribe tu nombre...">
+                <br>
+            
+                <label for="lname">Apellido: </label>
+                <input type="text" id="lname" name="lastname" placeholder="Escribe tu Apellido">
+                <br>
+            
+                <label for="country">correo</label>
+                <input type="text" id="correo" name="correo"placeholder="Escribe tu correo...">
+                <br>
                 <label >Fecha De Nacimiento: </label>
-                <input type="date">
-                <input type="submit">
-            </form>
+                <input type="date" id="fecha" name="Fecha de nacimiento">
+
+                 
+                
+              
+                <input type="submit" value="Submit">
+              </form>
+            </div>
 
 
 
